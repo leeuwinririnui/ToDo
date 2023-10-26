@@ -1,0 +1,61 @@
+<!-- badge_popup.xml -->
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="6"
+    android:rowCount="1"
+    android:orientation="horizontal">
+
+    <!-- Add an ImageView for each badge -->
+
+    <ImageView
+        android:id="@+id/badge1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/bronze"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/badge2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/silver"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/badge3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/gold"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/badge4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/platinum"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/badge5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/diamond"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical" />
+
+    <ImageView
+        android:id="@+id/badge6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/crown"
+        android:visibility="gone"
+        android:layout_gravity="center_vertical" />
+    <!-- Add more ImageViews for other badges as needed -->
+
+</GridLayout>

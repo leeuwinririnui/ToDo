@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_by_title"
+        android:title="@string/sort_by_title" />
+    <item
+        android:id="@+id/sort_by_priority"
+        android:title="@string/sort_by_priority" />
+    <item
+        android:id="@+id/sort_by_date"
+        android:title="@string/sort_by_date" />
+    <item
+        android:id="@+id/action_reset_counts"
+        android:title="@string/reset_points"/>
+
+    <item
+        android:id="@+id/display_badges"
+        android:title="@string/show_badges" />
+</menu>
